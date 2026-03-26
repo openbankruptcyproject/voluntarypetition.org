@@ -1,7 +1,6 @@
-{
-  "name": "Filing a Voluntary Bankruptcy Petition -- Section 301",
+{"name": "Filing a Voluntary Petition",
   "short_name": "voluntarypetition.org",
-  "description": "Free guide to filing a voluntary bankruptcy petition under Section 301. Learn what forms you need, filing fees, credit counseling requirements, and what happens after you file.",
+  "description": "Section 301 -- the first step in every bankruptcy case",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0d1117",

@@ -11,23 +11,22 @@
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Filing a Voluntary Bankruptcy Petition -- Section 301 | voluntarypetition.org</title>
-<meta name="description" content="Free guide to filing a voluntary bankruptcy petition under Section 301. Learn what forms you need, filing fees, credit counseling requirements, and what happens after you file.">
-<meta name="keywords" content="voluntary petition, Section 301, bankruptcy filing, Official Form 101, filing fee, credit counseling, automatic stay, bare petition">
+<title>Filing a Voluntary Petition | voluntarypetition.org</title>
+<meta name="description" content="Section 301 -- the first step in every bankruptcy case">
+<meta name="keywords" content="filing a voluntary petition, bankruptcy, voluntarypetition">
 <link rel="canonical" href="https://voluntarypetition.org/">
-<link rel="alternate" hreflang="en" href="https://voluntarypetition.org/">
 
 <!-- Open Graph -->
-<meta property="og:title" content="Filing a Voluntary Bankruptcy Petition -- Section 301">
-<meta property="og:description" content="Free guide to filing a voluntary bankruptcy petition under Section 301. Learn what forms you need, filing fees, credit counseling requirements, and what happens after you file.">
+<meta property="og:title" content="Filing a Voluntary Petition">
+<meta property="og:description" content="Section 301 -- the first step in every bankruptcy case">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://voluntarypetition.org/">
 <meta property="og:site_name" content="voluntarypetition.org">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Filing a Voluntary Bankruptcy Petition -- Section 301">
-<meta name="twitter:description" content="Free guide to filing a voluntary bankruptcy petition under Section 301. Learn what forms you need, filing fees, and what happens after you file.">
+<meta name="twitter:title" content="Filing a Voluntary Petition">
+<meta name="twitter:description" content="Section 301 -- the first step in every bankruptcy case">
 
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="manifest" href="/manifest.json">
@@ -45,17 +44,57 @@
     "https://automaticstay.org",
     "https://meanstest.org",
     "https://341meeting.org",
+    "https://relieffromstay.org",
+    "https://dischargeinjunction.org",
+    "https://dischargeinjunction.com",
     "https://523a.org",
     "https://109g.org",
+    "https://727a8.org",
     "https://727a8.com",
-    "https://relieffromstay.org",
-    "https://dischargeinjunction.com",
     "https://prosedebtors.org",
+    "https://bankruptcymill.org",
+    "https://bankruptcymill.com",
+    "https://whatischapter7.com",
+    "https://whatischapter7.org",
+    "https://chapter13plan.org",
+    "https://lienstripping.org",
+    "https://nondischargeable.org",
+    "https://bankruptcyfreshstart.org",
+    "https://reaffirmationagreement.org",
+    "https://dischargebar.org",
+    "https://section1328.org",
+    "https://bankruptcytaxes.org",
+    "https://dismissedbankruptcy.org",
+    "https://serialfiler.org",
+    "https://codebtorstay.org",
     "https://bankruptcyhardship.org",
     "https://voluntarypetition.org"
   ]
 }
 </script>
+
+<!-- BreadcrumbList Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Network",
+      "item": "https://1328f.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Filing a Voluntary Petition",
+      "item": "https://voluntarypetition.org/"
+    }
+  ]
+}
+</script>
+
 <style>
   :root {
     --bg: #0d1117;
@@ -66,6 +105,7 @@
     --accent: #58a6ff;
     --green: #3fb950;
     --red: #f85149;
+    --yellow: #e3a835;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
@@ -76,140 +116,48 @@
   }
   a { color: var(--accent); text-decoration: none; }
   a:hover { text-decoration: underline; }
-  a:focus-visible, button:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
-  }
-  .skip-link {
-    position: absolute; left: -9999px; top: auto;
-    width: 1px; height: 1px; overflow: hidden; z-index: 9999;
-    padding: 1rem; background: #238636; color: #fff;
-    font-weight: 600; text-decoration: none;
-  }
-  .skip-link:focus {
-    position: fixed; top: 10px; left: 10px;
-    width: auto; height: auto; overflow: visible;
-  }
-  nav {
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-    padding: 0.75rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
-  nav .site-name {
-    color: #f0f6fc;
-    font-weight: 700;
-    font-size: 1.1rem;
-    text-decoration: none;
-  }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .skip-link { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; z-index: 9999; padding: 1rem; background: #238636; color: #fff; font-weight: 600; text-decoration: none; }
+  .skip-link:focus { position: fixed; top: 10px; left: 10px; width: auto; height: auto; overflow: visible; }
+  nav { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.75rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; }
+  nav .site-name { color: #f0f6fc; font-weight: 700; font-size: 1.1rem; text-decoration: none; }
   nav .site-name:hover { text-decoration: none; color: var(--accent); }
   .nav-links { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; }
   .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
   .nav-links a:hover { color: var(--accent); text-decoration: none; }
   .nav-links a.active { color: var(--accent); font-weight: 600; }
-  .hamburger {
-    display: none; background: none; border: none; color: var(--text);
-    font-size: 1.5rem; cursor: pointer; padding: 0.25rem;
-  }
-  header {
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-    padding: 3rem 2rem;
-    text-align: center;
-  }
-  header h1 {
-    color: #f0f6fc;
-    font-size: 2rem;
-    margin-bottom: 0.75rem;
-  }
+  .hamburger { display: none; background: none; border: none; color: var(--text); font-size: 1.5rem; cursor: pointer; padding: 0.25rem; }
+  header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 3rem 2rem; text-align: center; }
+  header h1 { color: #f0f6fc; font-size: 2rem; margin-bottom: 0.75rem; }
   header h1 .accent { color: var(--accent); }
-  header .subtitle {
-    color: var(--text-muted);
-    font-size: 1.05rem;
-    max-width: 700px;
-    margin: 0 auto;
-  }
+  header .subtitle { color: var(--text-muted); font-size: 1.05rem; max-width: 700px; margin: 0 auto; }
+  .breadcrumb { max-width: 820px; margin: 1rem auto 0; padding: 0 1.5rem; font-size: 0.85rem; color: var(--text-muted); }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
   main { max-width: 820px; margin: 0 auto; padding: 2rem 1.5rem; }
-  .content-section {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 2rem;
-    margin-bottom: 1.5rem;
-  }
-  .content-section h2 {
-    color: #f0f6fc;
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--border);
-  }
-  .content-section p {
-    color: var(--text);
-    margin-bottom: 0.75rem;
-    font-size: 0.95rem;
-  }
-  .highlight-box {
-    background: #21262d;
-    border-left: 3px solid var(--accent);
-    padding: 1rem 1.25rem;
-    border-radius: 0 6px 6px 0;
-    margin: 1rem 0;
-  }
-  .highlight-box.success { border-left-color: var(--green); }
-  .highlight-box p { margin-bottom: 0.5rem; }
-  .highlight-box p:last-child { margin-bottom: 0; }
-  .cta-box {
-    background: var(--surface);
-    border: 1px solid var(--accent);
-    border-radius: 6px;
-    padding: 1.5rem 2rem;
-    text-align: center;
-    margin-bottom: 1.5rem;
-  }
-  .cta-box p { font-size: 0.95rem; margin-bottom: 0.75rem; }
-  .cta-box a.btn {
-    display: inline-block;
-    background: #238636;
-    color: #fff;
-    padding: 0.6rem 1.5rem;
-    border-radius: 6px;
-    font-weight: 600;
-    font-size: 0.95rem;
-    text-decoration: none;
-    margin: 0.25rem;
-  }
-  .cta-box a.btn:hover { background: #2ea043; text-decoration: none; }
-  .network-footer {
-    background: var(--surface);
-    border-top: 1px solid var(--border);
-    padding: 2rem;
-    text-align: center;
-    margin-top: 3rem;
-  }
-  .network-footer p {
-    color: var(--text-muted);
-    font-size: 0.85rem;
-    margin-bottom: 0.5rem;
-  }
-  .network-footer .links {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-top: 0.75rem;
-  }
+  .content-section { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 2rem; margin-bottom: 1.5rem; }
+  .content-section h2 { color: #f0f6fc; font-size: 1.3rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .content-section p { color: var(--text); margin-bottom: 0.75rem; font-size: 0.95rem; }
+  .content-section p:last-child { margin-bottom: 0; }
+  .green-box { background: #21262d; border-left: 3px solid var(--green); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .green-box p { margin-bottom: 0.5rem; }
+  .green-box p:last-child { margin-bottom: 0; }
+  .coming-soon { display: inline-block; background: var(--yellow); color: #0d1117; font-size: 0.75rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; }
+  .cta-box { background: var(--surface); border: 2px solid var(--accent); border-radius: 8px; padding: 2rem; margin: 2rem 0; text-align: center; }
+  .cta-box h3 { color: #f0f6fc; font-size: 1.2rem; margin-bottom: 0.75rem; }
+  .cta-box p { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1rem; }
+  .cta-box .cta-links { display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; }
+  .cta-box .cta-links a { display: inline-block; padding: 0.6rem 1.5rem; border-radius: 6px; font-weight: 600; font-size: 0.95rem; transition: background 0.2s; }
+  .cta-links .primary-btn { background: #238636; color: #fff; }
+  .cta-links .primary-btn:hover { background: #2ea043; text-decoration: none; }
+  .cta-links .secondary-btn { background: var(--border); color: var(--text); }
+  .cta-links .secondary-btn:hover { background: #484f58; text-decoration: none; }
+  .network-footer { background: var(--surface); border-top: 1px solid var(--border); padding: 2rem; text-align: center; margin-top: 3rem; }
+  .network-footer p { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.5rem; }
+  .network-footer .links { display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; margin-top: 0.75rem; }
   .network-footer .links a { color: var(--text-muted); font-size: 0.85rem; }
   .network-footer .links a:hover { color: var(--accent); }
-  .network-footer .disclaimer {
-    margin-top: 1rem;
-    font-size: 0.75rem;
-    color: var(--text-muted);
-  }
+  .network-footer .disclaimer { margin-top: 1rem; font-size: 0.75rem; color: var(--text-muted); }
   @media (max-width: 600px) {
     header h1 { font-size: 1.5rem; }
     main { padding: 1.5rem 1rem; }
@@ -218,125 +166,87 @@
     .hamburger { display: block; }
     .nav-links { display: none; width: 100%; flex-direction: column; gap: 0.75rem; padding-top: 0.75rem; }
     .nav-links.open { display: flex; }
+    .cta-box .cta-links { flex-direction: column; gap: 0.75rem; }
   }
 </style>
-
 </head>
 <body>
 
 <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<nav aria-label="Main navigation">
-  <a href="/" class="site-name">voluntarypetition.org</a>
-  <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="var n=this.nextElementSibling;var open=n.classList.toggle('open');this.setAttribute('aria-expanded',open);">&#9776;</button>
+<nav role="navigation" aria-label="Site navigation">
+  <a href="https://voluntarypetition.org/" class="site-name">voluntarypetition.org</a>
+  <button class="hamburger" aria-label="Toggle navigation menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
   <div class="nav-links">
     <a href="https://1328f.com">1328f.com</a>
     <a href="https://1328f.org">1328f.org</a>
     <a href="https://automaticstay.org">automaticstay.org</a>
     <a href="https://meanstest.org">meanstest.org</a>
     <a href="https://341meeting.org">341meeting.org</a>
+    <a href="https://relieffromstay.org">relieffromstay.org</a>
+    <a href="https://dischargeinjunction.org">dischargeinjunction.org</a>
+    <a href="https://dischargeinjunction.com">dischargeinjunction.com</a>
     <a href="https://523a.org">523a.org</a>
     <a href="https://109g.org">109g.org</a>
+    <a href="https://727a8.org">727a8.org</a>
     <a href="https://727a8.com">727a8.com</a>
-    <a href="https://relieffromstay.org">relieffromstay.org</a>
-    <a href="https://dischargeinjunction.com">dischargeinjunction.com</a>
     <a href="https://prosedebtors.org">prosedebtors.org</a>
+    <a href="https://bankruptcymill.org">bankruptcymill.org</a>
+    <a href="https://bankruptcymill.com">bankruptcymill.com</a>
+    <a href="https://whatischapter7.com">whatischapter7.com</a>
+    <a href="https://whatischapter7.org">whatischapter7.org</a>
+    <a href="https://chapter13plan.org">chapter13plan.org</a>
+    <a href="https://lienstripping.org">lienstripping.org</a>
+    <a href="https://nondischargeable.org">nondischargeable.org</a>
+    <a href="https://bankruptcyfreshstart.org">bankruptcyfreshstart.org</a>
+    <a href="https://reaffirmationagreement.org">reaffirmationagreement.org</a>
+    <a href="https://dischargebar.org">dischargebar.org</a>
+    <a href="https://section1328.org">section1328.org</a>
+    <a href="https://bankruptcytaxes.org">bankruptcytaxes.org</a>
+    <a href="https://dismissedbankruptcy.org">dismissedbankruptcy.org</a>
+    <a href="https://serialfiler.org">serialfiler.org</a>
+    <a href="https://codebtorstay.org">codebtorstay.org</a>
     <a href="https://bankruptcyhardship.org">bankruptcyhardship.org</a>
     <a href="https://voluntarypetition.org" class="active">voluntarypetition.org</a>
   </div>
 </nav>
 
 <header>
-  <h1>Filing a <span class="accent">Voluntary Petition</span></h1>
-  <p class="subtitle">A plain-language guide to 11 U.S.C. Section 301 -- the starting point for every voluntary bankruptcy case. What you need, what it costs, and what happens the moment you file.</p>
+  <h1><span class="accent">Filing a Voluntary Petition</span></h1>
+  <p class="subtitle">Section 301 -- the first step in every bankruptcy case</p>
 </header>
+
+<div class="breadcrumb" aria-label="Breadcrumb">
+  <a href="https://1328f.com/">Network</a> &rsaquo; Filing a Voluntary Petition
+</div>
 
 <main id="main-content">
 
   <div class="content-section">
-    <h2>What Is a Voluntary Petition?</h2>
-    <p>A voluntary petition is the document that starts a bankruptcy case. It is filed by the debtor -- the person or business seeking bankruptcy relief -- not by a creditor. Section 301 of the Bankruptcy Code authorizes any entity that may be a debtor under the applicable chapter to file a voluntary case.</p>
-    <p>The moment the petition is filed with the bankruptcy court, the case begins. A case number is assigned, the automatic stay takes effect, and creditors must stop all collection activity. The petition is the single most consequential document in a bankruptcy case -- everything flows from it.</p>
-  </div>
+    <span class="coming-soon">Coming Soon</span>
+    <h2>About This Site</h2>
+    <p>Every bankruptcy case begins with the filing of a voluntary petition under 11 U.S.C. Section 301 (or, rarely, an involuntary petition under Section 303). The voluntary petition is the document that creates the bankruptcy estate, triggers the automatic stay, and brings the debtor under the protection of the bankruptcy court. It is Official Form 101 for individuals and Official Form 201 for non-individuals.</p>
+    <p>This site will walk through the entire petition process: what documents are required, what information must be disclosed, what fees are involved, and what happens in the hours and days after filing. We will cover the schedules (A/B through J), the Statement of Financial Affairs, the means test form (Form 122A or 122C), and the credit counseling certificate requirement.</p>
+    <p>We will also address common filing mistakes -- bare petitions filed without schedules, incorrect venue selection, missing credit counseling certificates, and failure to list all creditors -- and explain how these errors can delay or derail a case before it really begins.</p>
 
-  <div class="highlight-box success">
-    <p><strong>Part of the Bankruptcy Transparency Network</strong> -- free, open-source bankruptcy information. No ads, no lead generation, no strings attached.</p>
-  </div>
-
-  <div class="content-section">
-    <h2>What You Need to File</h2>
-    <p>A complete voluntary petition package includes several documents. Not all are required at the moment of filing (see "Bare Petition Filing" below), but a complete filing includes:</p>
-    <div class="highlight-box">
-      <p><strong>The Petition</strong> -- Official Form 101 (individuals) or Official Form 201 (non-individuals). This is the core document identifying the debtor, the chapter, and basic case information.</p>
+    <div class="green-box">
+      <p><strong>Part of the Bankruptcy Transparency Network</strong> -- a growing collection of free, open-source bankruptcy information sites built on public court data. No advertising, no lead generation, no attorney referral fees. Real information, no strings.</p>
     </div>
-    <div class="highlight-box">
-      <p><strong>Schedules A through J</strong> -- a comprehensive disclosure of assets, liabilities, income, and expenses. Schedule A/B covers property, Schedule C covers exemptions, Schedule D covers secured debts, Schedule E/F covers unsecured debts, and Schedules I and J cover current income and expenses.</p>
-    </div>
-    <div class="highlight-box">
-      <p><strong>Statement of Financial Affairs (SOFA)</strong> -- Official Form 107. A detailed questionnaire covering income history, property transfers, lawsuits, financial accounts, and other information relevant to the case.</p>
-    </div>
-    <div class="highlight-box">
-      <p><strong>Means Test (Chapter 7 only)</strong> -- Official Form 122A. Determines whether the debtor qualifies for Chapter 7 or must file under Chapter 13 based on income and expenses.</p>
-    </div>
-    <div class="highlight-box">
-      <p><strong>Credit Counseling Certificate</strong> -- proof that the debtor completed an approved credit counseling course within 180 days before filing (see below).</p>
-    </div>
-    <p>Additional documents may be required by local rules depending on the court. Many courts require a creditor matrix (mailing list), a statement of social security number, and a statement of current monthly income.</p>
-  </div>
-
-  <div class="content-section">
-    <h2>Filing Fees</h2>
-    <p>Each chapter has a different filing fee set by the Judicial Conference:</p>
-    <div class="highlight-box">
-      <p><strong>Chapter 7:</strong> $338</p>
-    </div>
-    <div class="highlight-box">
-      <p><strong>Chapter 13:</strong> $313</p>
-    </div>
-    <div class="highlight-box">
-      <p><strong>Chapter 11:</strong> $1,738</p>
-    </div>
-    <p><strong>Fee waivers</strong> are available for Chapter 7 individual debtors whose household income is below 150% of the federal poverty guidelines and who cannot pay the fee in installments. The debtor must file an application (Official Form 103B) and the court decides.</p>
-    <p><strong>Installment payments</strong> are available in all chapters for individuals. The debtor files an application (Official Form 103A) proposing to pay the filing fee in up to four installments within 120 days of filing. The court may extend this to 180 days for cause.</p>
-  </div>
-
-  <div class="content-section">
-    <h2>Credit Counseling Requirement</h2>
-    <p>Section 109(h) requires individual debtors to complete a credit counseling briefing from an approved agency within 180 days before filing the petition. This is a strict eligibility requirement -- a case filed without the certificate (or an exemption) can be dismissed.</p>
-    <p>The briefing typically takes 60 to 90 minutes and can be completed online, by phone, or in person. The cost is usually $10 to $50, and agencies must provide free services to debtors who cannot pay.</p>
-    <p>A list of approved credit counseling agencies is available at <a href="https://www.justice.gov/ust/list-credit-counseling-agencies-approved-pursuant-11-usc-111">justice.gov</a>. The certificate must be filed with the petition or shortly after.</p>
-    <p>Exemptions exist for active military personnel deployed in combat zones, debtors who are incapacitated or disabled, and situations where the debtor requested counseling but could not obtain it within 7 days of the request.</p>
-  </div>
-
-  <div class="content-section">
-    <h2>What Happens When You File</h2>
-    <p>Filing the voluntary petition triggers several immediate consequences:</p>
-    <p><strong>The automatic stay takes effect.</strong> Under Section 362, nearly all creditor collection activity must stop the instant the petition is filed -- lawsuits, garnishments, foreclosures, repossessions, phone calls, and letters. Learn more at <a href="https://automaticstay.org">automaticstay.org</a>.</p>
-    <p><strong>A case number is assigned.</strong> The clerk assigns a case number and the case is assigned to a bankruptcy judge. All future filings reference this case number.</p>
-    <p><strong>The 341 meeting is scheduled.</strong> The court schedules a meeting of creditors (also called the 341 meeting) typically 20 to 40 days after filing. The debtor must attend and answer questions under oath from the trustee and any creditors who appear. Learn more at <a href="https://341meeting.org">341meeting.org</a>.</p>
-    <p><strong>Creditors are notified.</strong> The Bankruptcy Noticing Center (BNC) mails notice to all creditors listed in the petition, informing them of the case, the automatic stay, and key deadlines.</p>
-    <p><strong>A trustee is appointed.</strong> In Chapter 7 and Chapter 13 cases, a trustee is assigned to administer the case. In Chapter 11, the debtor typically remains in possession unless cause exists for a trustee.</p>
-  </div>
-
-  <div class="content-section">
-    <h2>Bare Petition Filing</h2>
-    <p>In an emergency, a debtor can file just the petition itself -- without schedules, the SOFA, or other documents. This is called a "bare petition" or "skeleton filing." It is authorized by Bankruptcy Rule 1007(c).</p>
-    <p>A bare petition filing triggers the automatic stay immediately, which is why it is used in emergencies -- for example, to stop a foreclosure sale, a wage garnishment, or a vehicle repossession that is about to happen.</p>
-    <p><strong>The 14-day deadline.</strong> After a bare petition filing, the debtor must file all remaining required documents within 14 days. If the debtor fails to complete the filing within that window, the court may dismiss the case without further notice. Some courts grant extensions, but this is not guaranteed.</p>
-    <p>Bare petition filings carry risk. An incomplete filing can result in dismissal, which lifts the automatic stay and may create complications for future filings under Section 109(g). They should be used only when the debtor truly needs emergency protection and intends to complete the filing promptly.</p>
   </div>
 
   <div class="cta-box">
-    <p>Learn more about your options:</p>
-    <a href="https://whatischapter7.com" class="btn">Chapter 7 Guide</a>
-    <a href="https://chapter13plan.org" class="btn">Chapter 13 Guide</a>
-    <a href="https://prosedebtors.org" class="btn">Pro Se Resources</a>
+    <h3>Check Your Bankruptcy Discharge Eligibility</h3>
+    <p>Use the free screener at 1328f.com to check whether federal timing bars affect your ability to receive a bankruptcy discharge.</p>
+    <div class="cta-links">
+      <a href="https://1328f.com" class="primary-btn">Discharge Screener</a>
+      <a href="https://1328f.org" class="secondary-btn">Research Platform</a>
+    </div>
   </div>
 
 </main>
 
 <footer class="network-footer" role="contentinfo">
-  <p><strong>Bankruptcy Transparency Network</strong></p>
+  <p><strong>Part of the Bankruptcy Transparency Network</strong></p>
   <p>Real information, no strings.</p>
   <div class="links">
     <a href="https://1328f.com">1328f.com</a>
@@ -344,15 +254,32 @@
     <a href="https://automaticstay.org">automaticstay.org</a>
     <a href="https://meanstest.org">meanstest.org</a>
     <a href="https://341meeting.org">341meeting.org</a>
+    <a href="https://relieffromstay.org">relieffromstay.org</a>
+    <a href="https://dischargeinjunction.org">dischargeinjunction.org</a>
+    <a href="https://dischargeinjunction.com">dischargeinjunction.com</a>
     <a href="https://523a.org">523a.org</a>
     <a href="https://109g.org">109g.org</a>
+    <a href="https://727a8.org">727a8.org</a>
     <a href="https://727a8.com">727a8.com</a>
-    <a href="https://relieffromstay.org">relieffromstay.org</a>
-    <a href="https://dischargeinjunction.com">dischargeinjunction.com</a>
     <a href="https://prosedebtors.org">prosedebtors.org</a>
+    <a href="https://bankruptcymill.org">bankruptcymill.org</a>
+    <a href="https://bankruptcymill.com">bankruptcymill.com</a>
+    <a href="https://whatischapter7.com">whatischapter7.com</a>
+    <a href="https://whatischapter7.org">whatischapter7.org</a>
+    <a href="https://chapter13plan.org">chapter13plan.org</a>
+    <a href="https://lienstripping.org">lienstripping.org</a>
+    <a href="https://nondischargeable.org">nondischargeable.org</a>
+    <a href="https://bankruptcyfreshstart.org">bankruptcyfreshstart.org</a>
+    <a href="https://reaffirmationagreement.org">reaffirmationagreement.org</a>
+    <a href="https://dischargebar.org">dischargebar.org</a>
+    <a href="https://section1328.org">section1328.org</a>
+    <a href="https://bankruptcytaxes.org">bankruptcytaxes.org</a>
+    <a href="https://dismissedbankruptcy.org">dismissedbankruptcy.org</a>
+    <a href="https://serialfiler.org">serialfiler.org</a>
+    <a href="https://codebtorstay.org">codebtorstay.org</a>
     <a href="https://bankruptcyhardship.org">bankruptcyhardship.org</a>
     <a href="https://voluntarypetition.org">voluntarypetition.org</a>
-    <a href="https://ko-fi.com/ilikemath9999">Ko-fi</a>
+    <a href="https://ko-fi.com/bankruptcytransparency">Ko-fi</a>
     <a href="https://github.com/ilikemath9999/bankruptcy-discharge-screener">GitHub</a>
   </div>
   <p class="disclaimer">This site provides general information only and does not constitute legal advice. No attorney-client relationship is created. Consult a licensed attorney for advice on your specific situation.</p>
