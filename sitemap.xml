@@ -1,68 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://voluntarypetition.org/about.html</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://voluntarypetition.org/approved-providers.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://voluntarypetition.org/attorney-fees.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://voluntarypetition.org/cost-of-not-filing.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://voluntarypetition.org/debtor-education.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://voluntarypetition.org/exceptions.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://voluntarypetition.org/fee-waiver.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://voluntarypetition.org/filing-fees.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://voluntarypetition.org/hidden-costs.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://voluntarypetition.org/</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://voluntarypetition.org/pre-filing.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://voluntarypetition.org/privacy.html</loc>
-    <lastmod>2026-04-11</lastmod>
-    <priority>0.3</priority>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
